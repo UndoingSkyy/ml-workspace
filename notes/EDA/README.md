@@ -14,10 +14,11 @@ Explore and validate a dataset before modeling.
 6. Automated profiling (optional)
 
 ## Module Mapping (Current Files)
-- `exercises/understanding_data/asking_basic_questions.ipynb`
-- `exercises/understanding_data/univariate_analysis.ipynb`
-- `exercises/understanding_data/bivariate_and_multivariate.ipynb`
-- `exercises/understanding_data/ydata_profiling.ipynb`
+- `exercises/understanding_data/01_asking_basic_questions.ipynb`
+- `exercises/understanding_data/02_univariate_analysis.ipynb`
+- `exercises/understanding_data/03_bivariate_and_multivariate.ipynb`
+- `exercises/understanding_data/04_ydata_profiling.ipynb`
+- `exercises/understanding_data/05_sales.ipynb`
 
 ## Key Checks To Always Run
 - Shape of dataset (`rows`, `columns`)
@@ -38,8 +39,7 @@ Explore and validate a dataset before modeling.
 - Heatmap for correlation matrix
 
 ## Dataset Locations
-- Working sample: `exercises/understanding_data/train.csv`
-- Shared resources folder: `resources/datasets/understanding_data/`
+- `resources/datasets/understanding_data/train.csv` (Titanic working sample)
 
 ## Folder Purpose
 Use this folder to keep your quick revision notes and EDA checklists.

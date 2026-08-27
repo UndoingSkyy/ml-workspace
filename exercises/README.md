@@ -1,18 +1,30 @@
-Exercises folder
+# Exercises
 
-This folder contains focused exercise notebooks grouped by topic.
+Focused practice notebooks grouped by topic.
 
-Structure:
+## Modules
 
-- pandas/: notebooks and example scripts for Pandas basics (01-11)
-- numpy/: numpy exercises
+- `numpy/` — array manipulation drills (`06_reshaping`, `08_transpose`, `09_resize`,
+  `10_concatenate`), plus `challenge_01.ipynb` and the `numpy_demo.py` script.
+  Numbers mirror the topics in `notes/numpy/`.
+- `pandas/` — a numbered course, `01_introduction` → `11_exporting_data`.
+  Small helper scripts live in `pandas/scripts/`.
+- `feature_engineering/` — encoding, scaling, and sklearn transformers
+  (`01_standardization` → `05_function_transformer`), with an end-to-end
+  `06_sklearn_pipeline/` walkthrough.
+- `understanding_data/` — EDA workflow, `01_asking_basic_questions` →
+  `05_sales`. Summary notes are in `notes/EDA/`.
+- `sql/` — SQL basics against the sample `world` database.
+- `web_scraping/` — scraping notebook; the `*.csv` files next to it are its output.
 
-How to use:
+## Conventions
 
-1. Create and activate a Python environment (venv, conda).
-2. Install dependencies from the repository `requirements.txt`.
-3. Launch Jupyter Lab or Notebook and open the notebook you want to run.
+- Sequential notebooks are named `NN_topic.ipynb` (zero-padded, snake_case).
+- Datasets are **not** stored here — they live under
+  `resources/datasets/<module>/` and are loaded with a relative path.
 
-Notes:
-- Notebooks are numbered to suggest a learning order but filenames are stable.
-- Example scripts (small helpers) are under `pandas/scripts/`.
+## How to use
+
+1. Create and activate a Python environment (venv or conda).
+2. `pip install -r requirements.txt` from the repo root.
+3. Launch Jupyter and open the notebook you want.

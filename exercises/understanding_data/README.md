@@ -1,20 +1,22 @@
-Understanding Your Data — module scaffold
+# Understanding Your Data
 
-This module covers four short videos (notebooks map to each video). Work here should focus on exploring and validating datasets before modeling.
+Exploring and validating a dataset before modeling.
 
-Structure:
+## Notebooks
 
-- `01_overview_metadata.ipynb` — overview and reading data, quick peek, and metadata.
-- `02_visual_exploration.ipynb` — plots and visual checks.
-- `03_summary_statistics.ipynb` — distributions, correlations, group summaries.
-- `04_quality_checks.ipynb` — missing values, outliers, duplicates, types.
+- `01_asking_basic_questions.ipynb` — shape, columns, dtypes, first sanity checks.
+- `02_univariate_analysis.ipynb` — one variable at a time: distributions, counts.
+- `03_bivariate_and_multivariate.ipynb` — relationships between variables, correlation.
+- `04_ydata_profiling.ipynb` — automated profiling report.
+- `05_sales.ipynb` — applied practice on a sales dataset.
 
-Support folders:
+## Support folders
 
-- `scripts/` — small helper scripts (place `.py` utilities here).
-- `slides/` — slide PDFs or markdown notes for each video.
-- `resources/` — datasets are stored under `resources/datasets/understanding_data/`.
+- `slides/` — slide PDFs or markdown notes (placeholder).
 
-Notes:
-- Notebooks are intentionally not created yet; create them when you record each video.
-- Add sample CSVs to `resources/datasets/understanding_data/` and list them in `resources/dataset_manifest.csv` if desired.
+## Data
+
+Datasets are stored under `resources/datasets/understanding_data/` and loaded with a
+relative path (`../../resources/datasets/understanding_data/train.csv`).
+
+Condensed revision notes for this module: `notes/EDA/`.
